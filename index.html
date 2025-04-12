@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="description" content="Top-rated MEP services in Oman including HVAC, electrical, plumbing & fire fighting. Contact us for trusted MEP solutions." />
   <meta name="keywords" content="MEP services Oman, Mechanical Electrical Plumbing, MEP contractors Muscat, MEP Salalah, HVAC Fire Fighting Oman" />
   <meta name="author" content="AL WEJHA GROUP" />
   <title>Professional MEP Services in Oman | AL WEJHA GROUP</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
       font-family: 'Open Sans', sans-serif;
@@ -29,6 +30,7 @@
       max-width: 800px;
       margin: 40px auto;
       padding: 0 20px;
+      text-align: center;
     }
     p {
       font-size: 1.1rem;
@@ -44,7 +46,7 @@
       margin-bottom: 10px;
       text-decoration: none;
     }
-    .cta {
+    .cta, .visit-main {
       display: inline-block;
       background-color: #0b74de;
       color: white;
@@ -52,6 +54,17 @@
       text-decoration: none;
       border-radius: 8px;
       margin-top: 20px;
+      margin-right: 10px;
+    }
+    .cta:hover, .visit-main:hover {
+      background-color: #095cb5;
+    }
+    img.hero-img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
   </style>
 </head>
@@ -60,20 +73,28 @@
     <h1>Professional MEP Services in Oman</h1>
     <p>Mechanical, Electrical & Plumbing Experts You Can Trust</p>
   </header>
+
   <section>
+    <!-- MEP Image -->
+    <img src="mep.webp" alt="MEP Services in Oman - HVAC, Electrical, Plumbing" class="hero-img" loading="lazy">
+
     <p>
       We specialize in top-tier MEP services across Oman, including HVAC installation,
       electrical systems, fire fighting solutions, and plumbing services. Our experienced
       team is trusted by government, commercial, and industrial clients for delivering
       projects with safety, quality, and reliability at the forefront.
     </p>
+
     <div class="contact">
       <strong>Contact Us:</strong>
-      <a href="https://wa.me/96879271055" target="_blank">📞 WhatsApp: +96879271055</a>
-      <a href="tel:+96879271055">📱 Call: +96879271055</a>
-      <a href="mailto:business@alwejhagroup.com">📧 Email: business@alwejhagroup.com</a>
+      <a href="https://wa.me/96879271055" target="_blank" aria-label="Chat with us on WhatsApp">📞 WhatsApp: +96879271055</a>
+      <a href="tel:+96879271055" aria-label="Call us at +96879271055">📱 Call: +96879271055</a>
+      <a href="mailto:business@alwejhagroup.com" aria-label="Email us at business@alwejhagroup.com">📧 Email: business@alwejhagroup.com</a>
     </div>
-    <a class="cta" href="https://wa.me/96879271055" target="_blank">Get a Free Quote Now</a>
+
+    <!-- Call to Action & Main Website Button -->
+    <a class="cta" href="https://wa.me/96879271055" target="_blank" aria-label="Get a free quote on WhatsApp">Get a Free Quote Now</a>
+    <a class="visit-main" href="https://www.alwejhagroup.com" target="_blank" aria-label="Visit AL WEJHA GROUP Main Website">🌐 Visit Main Website</a>
   </section>
 </body>
 </html>
