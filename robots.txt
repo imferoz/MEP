@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mep.alwejhagroup.com/sitemap.xml
